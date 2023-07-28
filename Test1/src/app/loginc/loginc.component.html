@@ -1,0 +1,46 @@
+<!-- Username:
+<input type="text" name="name">
+<br>
+Password:
+<input type="password" name="password">
+<br> -->
+
+<!-- <div (click)="openpopup()" >
+<button > Login</button>
+</div> -->
+<!-- class="overlay" -->
+<!-- (click)="closeoverlay($event)" -->
+<div  class="overlay" *ngIf="show" (click)="closeoverlay($event)"  >
+    <div class="content">
+        <div class="close" (click)="closepopup()">
+            &times;
+</div>
+<!-- <div class="all">
+<h3>Login Form</h3> -->
+<!-- </div>
+    <div class="move">
+    Username:<input type="text" name="t" class="form-control" >
+     
+    Password:<input type="password" name="p" class="form-control" >
+    </div>
+    </div> -->
+    <div *ngIf="show" class="container" >
+        <H1> Login Page</H1>
+   <div class="formelm">     
+    Username:<input type="text" name="Username"/>
+ </div>
+ <div class="formelm">
+
+    Password:<input type="text" name="p"/>
+   
+  </div>
+  
+  <div >
+    <button type="submit" class="butto"> Login </button>
+  </div>
+  <div> <a class="hf" href="#password"> Forgot Password</a> </div>
+  </div>
+  
+
+</div>
+</div>

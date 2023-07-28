@@ -1,0 +1,35 @@
+.c-section{
+    padding: 40px 0;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.center{
+  position: absolute;
+  top: 50%;
+  left:50% ;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}  
+h4,h6{
+font-weight: 800;
+}
+.btn{
+  border-radius: 2px;
+  background: green;
+  color: aliceblue;
+}
+

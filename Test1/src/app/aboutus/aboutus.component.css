@@ -1,0 +1,14 @@
+.contain
+{
+   text-align: center;
+}
+.cont{
+    justify-content: left;
+  
+}
+.bod{
+    background:url('../../assets/img/s.jpg')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 100vw;
+}

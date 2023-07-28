@@ -1,0 +1,138 @@
+ /* .box{
+    display:inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 30px;
+    border: 1px solid silver;
+    margin:10px;
+    justify-content: center;
+    background-color:whitesmoke;
+  }
+  .im{
+    height: 30px;
+    width: 100px;
+    
+
+  }
+  .mg{
+    height: 42px;
+    width: 200px;
+    position: relative;
+    left: 100px;
+  }
+   button:hover {
+    background-color:bisque;
+  }
+  
+
+
+.tab{
+  border: 1px solid silver;
+  background-color: black;
+  font-size:80%;
+   width: 100%;
+ } 
+  table tr td{
+  width: 33.3%;
+} 
+ .container{
+  width:100px;
+  margin:0 10px;
+  box-shadow: 2px 2px 2px #000;
+  transition: 1s;
+}
+.container:hover
+{
+  transform:scale(1.2);
+  z-index: 1;
+} */
+/* .imga{
+  height:250px;
+  width: 200px;
+  background: url('../../assets/img/lightss.jpg') center;
+  color:white
+}
+.imgb
+{
+  height: 200px;
+  width: 200px;
+  background: url('../../assets/img/lightss.jpg') center;
+}
+.imgc{
+  height: 200px;
+  width: 200px;
+  background:url('../../assets/img/frock.jpeg') center;
+} */
+.product{
+  padding: 40px 0;
+}
+.row{
+  display: flex;
+}
+
+.box{
+  
+  padding:20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.content h4{
+  margin-top: 10px;
+}
+.btn{
+  /* background-color: beige;
+  border-radius: 50%;
+  font-size: 16px; */
+margin-top: 0 8px;
+}
+.content span{
+font-weight: 800;
+font-size: 18px;
+}
+.cart-btn
+{
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 4px 15px;
+}
+.cart-btn:hover{
+  color:#fff;
+  background: black;
+
+}
+.image{
+  height: 180px;
+  width: 145px;
+}
+.image:hover{
+  transition: 00.3s ease-in-out;
+  transform: scale(1.1);
+}
+.prod img{
+  width:64px;
+}
+prod{
+  margin: opx 15px;
+  text-align: center;
+}
+/* .card{
+  padding:20px;
+  margin:30px;
+} */
+.card img{
+  width:200px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+.card{
+  padding:20px;
+  margin:30px;
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  min-width:0;
+  background-color: #fff;
+  background-clip: border-box;
+  border:1px solid black
+}
